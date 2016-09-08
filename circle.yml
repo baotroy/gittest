@@ -19,5 +19,4 @@ machine:
 			- ls
 	test:
 		override:
-			- phpunit tests/index.php
-			- phpunit wp-content/plugins
+			- tests/index.php
