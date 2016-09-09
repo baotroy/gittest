@@ -1,10 +1,9 @@
 machine:
   timezone:
     Asia/Tokyo
+  php:
+    version: 5.4.5
 dependencies:
-  pre:
-    - pip install awscli
-    - gem install bundler
   override:
     - php composer.phar install
 test:
