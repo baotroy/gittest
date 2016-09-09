@@ -3,9 +3,6 @@ machine:
     Asia/Tokyo
   php:
     version: 7.0.4
-dependencies:
-  override:
-    - php composer.phar install
 test:
   override:
     - echo '1'
