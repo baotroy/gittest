@@ -18,5 +18,5 @@ dependencies:
     - ls
 test:
   override:
-    - phpunit tests
+    - phpunit tests/init
     - phpunit wp-content/plugins
