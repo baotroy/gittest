@@ -1,1 +1,8 @@
-<?php echo 1;?>
+<?php 
+class test{
+	function init(){
+		echo 'This is init';
+	}
+}
+
+?>
