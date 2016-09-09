@@ -3,9 +3,6 @@ machine:
     Asia/Tokyo
   php:
     version: 7.0.4
-dependencies:
-  pre:
-    - wget https://phar.phpunit.de/phpunit.phar && chmod +x phpunit.phar && mv phpunit.phar /home/ubuntu/.phpenv/shims/phpunit
 test:
   override:
-    - phpunit tests/index.php
+    - sh tests/index.php
