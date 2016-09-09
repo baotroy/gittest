@@ -5,4 +5,4 @@ machine:
     version: 7.0.4
 test:
   override:
-    - echo '1'
+    - tests/index.php
